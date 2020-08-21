@@ -1,6 +1,0 @@
-{
-  "navigationBarTitleText": "我的",
-  "usingComponents": {
-    "sl-filter": "/components/songlazy-sl-filter/sl-filter/filter-view"
-  }
-}

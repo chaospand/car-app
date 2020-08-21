@@ -1,1 +1,0 @@
-<view class="content"><sl-filter vue-id="704e9d00-1" themeColor="{{themeColor}}" menuList="{{menuList}}" data-event-opts="{{[['^result',[['result']]]]}}" bind:result="__e" bind:__l="__l"></sl-filter></view>
