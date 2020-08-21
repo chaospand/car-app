@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "XXX车行",
+  "usingComponents": {
+    "uni-segmented-control": "/components/uni-segmented-control/uni-segmented-control",
+    "index-nav": "/components/my-components/index-nav",
+    "nav-text": "/components/my-components/nav-text",
+    "nav-image": "/components/my-components/nav-image",
+    "common-list": "/components/my-components/common-list"
+  }
+}

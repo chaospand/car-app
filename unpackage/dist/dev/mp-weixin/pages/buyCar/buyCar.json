@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "买车车",
+  "usingComponents": {
+    "car-item": "/pages/buyCar/car_item",
+    "sl-filter": "/components/songlazy-sl-filter/sl-filter/filter-view"
+  }
+}

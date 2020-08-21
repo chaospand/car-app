@@ -51,7 +51,7 @@
 				<view class="span-5 d-flex flex-column j-center a-center py-2" >
 					<image src="/static/saveProtect.png" 
 					style="width: 100upx;height: 100upx;" mode="widthFix"></image>
-					<text class="font-sm j-sb mt-1 text-center"  style="color: #535353;">无事故，无火烧，无水泡</text>
+					<text class="font-sm  mt-1 text-center"  style="color: #535353;">无事故，无火烧，无水泡</text>
 				</view>
 				
 				<view class="span-5 d-flex flex-column j-center a-center py-2" >
@@ -71,14 +71,20 @@
 		<view  class="mt-3 p-2" style="background-color: #FFFFFF;">
 			<text>特色服务</text>
 			<!-- 公共列表组件 750 -40 = 710  -->
-			<view class="row j-sb">
-				
+			<view class="row a-center j-start" >
+				<block v-for="(item,index) in service" :key="index">
+				<view class=" py-2 d-flex" style="width: 33.33%;align-items: center;" >
+					<image src="/static/right.png"  class=""
+					style="width: 40rpx;height: 40rpx;"></image>
+					<text class="font-lg   "  style="color: #535353;">{{item.title}}</text>
+				</view>
+				</block>
 			</view>
 		</view>
 		
-		<view style="margin-bottom: 150rpx;">
+	<!-- 	<view style="margin-bottom: 150rpx;">
 			
-		</view>
+		</view> -->
 		
 		
 	</view>
@@ -106,30 +112,40 @@
 				],
 				cars:[
 					{
-						cover:"/static/images/phone/p2.jpg",
-						tile:"米家空调",
+						cover:"/static/golf.jpg",
+						title:"米家空调米家空调米家空调",
+						desc:"2020款 挚爱版 200TSI DSG舒适型进取版",
+						oprice:2699,
+						pprice:1399
+					},{
+						cover:"/static/golf.jpg",
+						title:"米家空调",
+						desc:"2020款 挚爱版 200TSI DSG舒适型进取版",
+						oprice:126199,
+						pprice:13999
+					},{
+						cover:"/static/golf.jpg",
+						title:"米家空调",
 						desc:"1.5匹变频空调",
 						oprice:2699,
 						pprice:1399
 					},{
-						cover:"/static/images/phone/p2.jpg",
-						tile:"米家空调",
-						desc:"1.5匹变频空调",
-						oprice:2699,
-						pprice:1399
-					},{
-						cover:"/static/images/phone/p2.jpg",
-						tile:"米家空调",
-						desc:"1.5匹变频空调",
-						oprice:2699,
-						pprice:1399
-					},{
-						cover:"/static/images/phone/p2.jpg",
-						tile:"米家空调",
+						cover:"/static/golf.jpg",
+						title:"米家空调",
 						desc:"1.5匹变频空调",
 						oprice:2699,
 						pprice:1399
 					}
+				],
+				service:[
+					{title:"高价置换"},
+					{title:"分期贷款"},
+					{title:"全程代办"},
+					{title:"车辆寄售"},
+					{title:"价格评估"},
+					{title:"延长质保"},
+					{title:"整备翻新"},
+					{title:"试乘试驾"}
 				]
 			}
 		},
