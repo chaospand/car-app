@@ -6,9 +6,9 @@
 	  		  <text>{{item.name}}</text>
 	  		  <text class="font-md">{{item.type}}</text>
 	  		  <view class="row font-sm">
-	  			  <text>{{item.brandTime}}</text>
-	  			  <text>{{item.mileage}}</text>
-	  			  <text>{{item.place}}</text>
+	  			  <text class="px-1">{{item.brandTime}}</text>
+	  			  <text class="px-1">{{item.mileage}}</text>
+	  			  <text class="px-1">{{item.place}}</text>
 	  		  </view>
 	  		  <view class="row font-sm a-center">
 	  			  <text class="font-md" style="color: #F37B1D;">{{formatPrice(item.pprice)}}</text>
